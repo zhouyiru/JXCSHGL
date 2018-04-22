@@ -46,7 +46,7 @@ public class AppGoodsController extends BaseController {
 	 /**商品详情页面
 	 * @param
 	 * @throws Exception
-	 * http://127.0.0.1:8080/FHSHGL/appGoods/goods.do?GOODS_ID=284e2238d7fc4bd481c6324fc4c160cf
+	 * http://127.0.0.1:8080/JXCSHGL/appGoods/goods.do?GOODS_ID=284e2238d7fc4bd481c6324fc4c160cf
 	 */
 	@RequestMapping(value="/goods")
 	public ModelAndView goView()throws Exception{
