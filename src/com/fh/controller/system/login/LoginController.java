@@ -45,8 +45,6 @@ import com.fh.util.RightsHelper;
 import com.fh.util.Tools;
 /**
  * 总入口
- * @author fh QQ 3 1 3 5 9 6 7 9 0[青苔]
- * 修改日期：2015/11/2
  */
 /**
  * @author Administrator
@@ -399,7 +397,7 @@ public class LoginController extends BaseController {
 	
 	/**
 	 * 用户注销
-	 * @param session
+	 * @param
 	 * @return
 	 * @throws Exception 
 	 */
@@ -464,7 +462,7 @@ public class LoginController extends BaseController {
 	}
 	
 	/**获取用户权限
-	 * @param session
+	 * @param
 	 * @return
 	 */
 	public Map<String, String> getUQX(String USERNAME){

@@ -7,9 +7,9 @@
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>
-			resources/spring/ApplicationContext-main.xml,
-			resources/spring/ApplicationContext-dataSource.xml,
-			resources/spring/ApplicationContext-shiro.xml
+			classpath:spring/ApplicationContext-main.xml,
+			classpath:spring/ApplicationContext-dataSource.xml,
+			classpath:spring/ApplicationContext-shiro.xml
 		</param-value>
 	</context-param>
 	<context-param>
@@ -37,6 +37,11 @@
 	<filter>
 		<filter-name>DruidWebStatFilter</filter-name>
 		<filter-class>com.alibaba.druid.support.http.WebStatFilter</filter-class>
+		<!--关闭session统计功能-->
+		<!--<init-param>
+			<param-name>sessionStatEnable</param-name>
+			<param-value>false</param-value>
+		</init-param>-->
 		<init-param>
 			<param-name>exclusions</param-name>
 			<param-value>*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*</param-value>
@@ -56,12 +61,12 @@
 	</servlet-mapping>
 	<!-- 连接池 启用Web监控统计功能   end-->
 
-<!--	<filter>
+	<filter>
 		<filter-name>loginFilter</filter-name>
 		<filter-class>
-			com.fh.filter.LogindFilter
+			com.fh.filter.LoginFilter
 		</filter-class>
-	</filter>-->
+	</filter>
 	<listener>
 		<listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
 	</listener>
@@ -74,7 +79,7 @@
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
-			<param-value>resources/spring/ApplicationContext-mvc.xml</param-value>
+			<param-value>classpath:spring/ApplicationContext-mvc.xml</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>

@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="FHSHGL" />
+        <module name="JXCSHGL" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="FHSHGL" target="1.5" />
+      <module name="JXCSHGL" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
