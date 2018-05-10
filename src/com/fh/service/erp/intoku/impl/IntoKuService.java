@@ -13,8 +13,6 @@ import com.fh.service.erp.intoku.IntoKuManager;
 
 /** 
  * 说明： 商品入库
- * 创建人：FH Q313596790
- * 创建时间：2016-09-10
  * @version
  */
 @Service("intokuService")

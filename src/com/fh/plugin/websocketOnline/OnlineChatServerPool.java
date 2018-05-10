@@ -11,9 +11,6 @@ import org.java_websocket.WebSocket;
 
 /**
  * 在线管理
- * @author FH
- * QQ 313596790
- * 2015-5-25
  */
 public class OnlineChatServerPool {
 
@@ -23,7 +20,7 @@ public class OnlineChatServerPool {
 	
 	/**
 	 * 获取用户名
-	 * @param session
+	 * @param
 	 */
 	public static String getUserByKey(WebSocket conn){
 		return userconnections.get(conn);
@@ -56,7 +53,7 @@ public class OnlineChatServerPool {
 	
 	/**
 	 * 向连接池中添加连接
-	 * @param inbound
+	 * @param
 	 */
 	public static void addUser(String user, WebSocket conn){
 		userconnections.put(conn,user);	//添加连接
@@ -77,7 +74,7 @@ public class OnlineChatServerPool {
 	
 	/**
 	 * 移除连接池中的连接
-	 * @param inbound
+	 * @param
 	 */
 	public static boolean removeUser(WebSocket conn){
 		if(userconnections.containsKey(conn)){
@@ -90,7 +87,7 @@ public class OnlineChatServerPool {
 	
 	/**
 	 * 向特定的用户发送数据
-	 * @param user
+	 * @param
 	 * @param message
 	 */
 	public static void sendMessageToUser(WebSocket conn,String message){

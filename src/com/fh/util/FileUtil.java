@@ -13,8 +13,6 @@ import java.nio.channels.FileChannel;
 import java.nio.channels.FileChannel.MapMode;
 
 /**	文件处理
-*  创建人：FH Q313596790
- * 创建时间：2014年12月23日
  */
 public class FileUtil {
 
@@ -30,7 +28,7 @@ public class FileUtil {
 	
 	/**
 	 * 创建目录
-	 * @param destDirName目标目录名
+	 * @param
 	 * @return 
 	 */
 	public static Boolean createDir(String destDirName) {
@@ -45,7 +43,7 @@ public class FileUtil {
 	 * 删除文件
 	 * @param filePathAndName
 	 *            String 文件路径及名称 如c:/fqf.txt
-	 * @param fileContent
+	 * @param
 	 *            String
 	 * @return boolean
 	 */
@@ -169,7 +167,7 @@ public class FileUtil {
 	/**
 	 * Mapped File way MappedByteBuffer 可以在处理大文件时，提升性能
 	 * 
-	 * @param filename
+	 * @param
 	 * @return
 	 * @throws IOException
 	 */

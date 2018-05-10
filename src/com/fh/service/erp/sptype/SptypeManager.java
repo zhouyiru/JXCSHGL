@@ -6,8 +6,6 @@ import com.fh.util.PageData;
 
 /** 
  * 说明： 商品类别接口
- * 创建人：FH Q313596790
- * 创建时间：2016-09-08
  * @version
  */
 public interface SptypeManager{

@@ -105,7 +105,7 @@ public class LoginController extends BaseController {
 				errInfo = "nullcode"; 			//效验码为空
 			}else{
 				String USERNAME = KEYDATA[0];	//登录过来的用户名
-				String PASSWORD  = KEYDATA[1];	//登录过来的密码
+				String PASSWORD  = KEYDATA[1];	//
 				pd.put("USERNAME", USERNAME);
 				if(Tools.notEmpty(sessionCode) && sessionCode.equalsIgnoreCase(code)){		//判断登录验证码
 					String passwd = new SimpleHash("SHA-1", USERNAME, PASSWORD).toString();	//密码加密

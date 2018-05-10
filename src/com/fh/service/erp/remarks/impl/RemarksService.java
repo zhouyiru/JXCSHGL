@@ -10,8 +10,6 @@ import com.fh.service.erp.remarks.RemarksManager;
 
 /** 
  * 说明： 客户备注
- * 创建人：FH Q313596790
- * 创建时间：2017-02-19
  * @version
  */
 @Service("remarksService")

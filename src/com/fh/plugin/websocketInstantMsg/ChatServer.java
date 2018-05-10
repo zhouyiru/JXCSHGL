@@ -16,9 +16,6 @@ import org.java_websocket.server.WebSocketServer;
 
 /**
  * 即时通讯
- * @author FH
- * QQ 313596790
- * 2015-5-16
  */
 public class ChatServer extends WebSocketServer{
 
@@ -102,7 +99,7 @@ public class ChatServer extends WebSocketServer{
 	
 	/**
 	 * 用户下线处理
-	 * @param user
+	 * @param
 	 */
 	public void userLeave(WebSocket conn){
 		String user = ChatServerPool.getUserByKey(conn);

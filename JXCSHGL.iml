@@ -12,11 +12,6 @@
         <webroots>
           <root url="file://$MODULE_DIR$/WebRoot" relative="/" />
         </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/resources" />
-          <root url="file://$MODULE_DIR$/src" />
-          <root url="file://$MODULE_DIR$/WebRoot" />
-        </sourceRoots>
       </configuration>
     </facet>
   </component>

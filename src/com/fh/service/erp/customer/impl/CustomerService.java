@@ -10,8 +10,6 @@ import com.fh.service.erp.customer.CustomerManager;
 
 /** 
  * 说明： 客户管理
- * 创建人：FH Q313596790
- * 创建时间：2017-02-18
  * @version
  */
 @Service("customerService")

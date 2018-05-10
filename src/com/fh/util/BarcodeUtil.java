@@ -15,8 +15,6 @@ import org.krysalis.barcode4j.tools.UnitConv;
 
 /**
  * 条形码工具类
- * @author fhadmin Q 3 1 35 9 679 0
- * @createDate 2017年11月17日
  */
 public class BarcodeUtil{
 

@@ -14,8 +14,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 /**
  * 上传文件
- * 创建人：FH Q313596790
- * 创建时间：2014年12月23日
  * @version
  */
 public class FileUpload {
@@ -42,7 +40,7 @@ public class FileUpload {
 	/**
 	 * 写文件到当前目录的upload目录中
 	 * @param in
-	 * @param fileName
+	 * @param
 	 * @throws IOException
 	 */
 	private static String copyFile(InputStream in, String dir, String realName)

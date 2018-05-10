@@ -25,8 +25,6 @@ import com.fh.util.Tools;
 
 /** 
  * 说明：商品库存
- * 创建人：FH Q313596790
- * 创建时间：2016-09-12
  */
 @Controller
 @RequestMapping(value="/kucun")

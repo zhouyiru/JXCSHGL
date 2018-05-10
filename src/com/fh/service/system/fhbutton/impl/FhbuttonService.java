@@ -9,9 +9,7 @@ import com.fh.util.PageData;
 import com.fh.service.system.fhbutton.FhbuttonManager;
 
 /** 
- * 说明： 按钮管理 
- * 创建人：FH Q313596790
- * 创建时间：2016-01-15
+ * 说明： 按钮管理
  * @version
  */
 @Service("fhbuttonService")

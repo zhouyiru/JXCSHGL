@@ -10,8 +10,6 @@ import com.fh.service.erp.spunit.SpunitManager;
 
 /** 
  * 说明： 计量单位
- * 创建人：FH Q313596790
- * 创建时间：2016-09-09
  * @version
  */
 @Service("spunitService")
@@ -54,7 +52,7 @@ public class SpunitService implements SpunitManager{
 	}
 	
 	/**列表(全部)
-	 * @param pd
+	 * @param
 	 * @throws Exception
 	 */
 	@SuppressWarnings("unchecked")

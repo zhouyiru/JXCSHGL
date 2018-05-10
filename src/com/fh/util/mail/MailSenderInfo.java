@@ -1,8 +1,6 @@
 package com.fh.util.mail;   
 /**
- * 发送邮件需要使用的基本信息 
-* @author FH QQ 313596790[青苔]
-* 修改时间：2015年7月27日
+ * 发送邮件需要使用的基本信息
 * @version 2.0
  */
 import java.util.Properties;    

@@ -7,8 +7,6 @@ import com.fh.util.PageData;
 
 
 /** 图片管理接口
- * @author fh313596790qq(青苔)
- * 修改时间：2015.11.2
  */
 public interface PicturesManager {
 	
@@ -20,7 +18,7 @@ public interface PicturesManager {
 	public List<PageData> list(Page page)throws Exception;
 	
 	/**列表全部
-	 * @param page
+	 * @param
 	 * @return
 	 * @throws Exception
 	 */

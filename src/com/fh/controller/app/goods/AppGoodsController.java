@@ -18,7 +18,7 @@ import com.fh.service.information.pictures.PicturesManager;
 import com.fh.util.PageData;
 
 
-/**@author FH Q313596790
+/**
   * 商品信息-接口类 
   * 相关参数协议：
   * 00	请求失败

@@ -9,10 +9,7 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.stereotype.Repository;
-/**
- * @author FH Q313596790
- * 修改时间：2015、12、11
- */
+
 @Repository("daoSupport")
 public class DaoSupport implements DAO {
 
@@ -33,7 +30,7 @@ public class DaoSupport implements DAO {
 	/**
 	 * 批量更新
 	 * @param str
-	 * @param obj
+	 * @param
 	 * @return
 	 * @throws Exception
 	 */
@@ -55,7 +52,7 @@ public class DaoSupport implements DAO {
 	/**
 	 * 批量更新
 	 * @param str
-	 * @param obj
+	 * @param
 	 * @return
 	 * @throws Exception
 	 */
@@ -80,7 +77,7 @@ public class DaoSupport implements DAO {
 	/**
 	 * 批量更新
 	 * @param str
-	 * @param obj
+	 * @param
 	 * @return
 	 * @throws Exception
 	 */

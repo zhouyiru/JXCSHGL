@@ -6,8 +6,6 @@ import com.fh.util.PageData;
 
 /** 
  * 说明： 客户跟踪描述接口
- * 创建人：FH Q313596790
- * 创建时间：2017-03-04
  * @version
  */
 public interface CustomerImgManager{

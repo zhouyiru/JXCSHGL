@@ -6,8 +6,6 @@ import com.fh.util.PageData;
 
 /** 
  * 说明： 计量单位接口
- * 创建人：FH Q313596790
- * 创建时间：2016-09-09
  * @version
  */
 public interface SpunitManager{
@@ -37,7 +35,7 @@ public interface SpunitManager{
 	public List<PageData> list(Page page)throws Exception;
 	
 	/**列表(全部)
-	 * @param pd
+	 * @param
 	 * @throws Exception
 	 */
 	public List<PageData> listAll(String USERNAME)throws Exception;

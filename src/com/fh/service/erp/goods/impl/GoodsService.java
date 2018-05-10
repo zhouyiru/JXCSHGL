@@ -13,8 +13,6 @@ import com.fh.service.erp.goods.GoodsManager;
 
 /** 
  * 说明： 商品管理
- * 创建人：FH Q313596790
- * 创建时间：2016-09-09
  * @version
  */
 @Service("goodsService")

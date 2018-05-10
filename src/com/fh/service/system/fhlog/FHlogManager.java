@@ -7,14 +7,12 @@ import com.fh.util.PageData;
 
 /** 
  * 说明： 操作日志记录接口
- * 创建人：FH Q313596790
- * 创建时间：2016-05-10
  * @version
  */
 public interface FHlogManager{
 
 	/**新增
-	 * @param pd
+	 * @param
 	 * @throws Exception
 	 */
 	public void save(String USERNAME, String CONTENT)throws Exception;

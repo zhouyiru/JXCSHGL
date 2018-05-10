@@ -16,8 +16,6 @@ import com.fh.service.system.fhlog.FHlogManager;
 
 /** 
  * 说明： 操作日志记录
- * 创建人：FH Q313596790
- * 创建时间：2016-05-10
  * @version
  */
 @Service("fhlogService")
@@ -27,7 +25,7 @@ public class FHlogService implements FHlogManager{
 	private DaoSupport dao;
 	
 	/**新增
-	 * @param pd
+	 * @param
 	 * @throws Exception
 	 */
 	public void save(String USERNAME, String CONTENT)throws Exception{

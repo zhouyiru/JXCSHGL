@@ -10,8 +10,6 @@ import com.fh.service.erp.spbrand.SpbrandManager;
 
 /** 
  * 说明： 品牌管理
- * 创建人：FH Q313596790
- * 创建时间：2016-09-08
  * @version
  */
 @Service("spbrandService")
