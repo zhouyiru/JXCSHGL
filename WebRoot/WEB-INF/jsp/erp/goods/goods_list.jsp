@@ -87,8 +87,8 @@
 											<td class='center' style="width: 30px;">${vs.index+1}</td>
 											<td class='center'>
 												${var.TITLE}
-												<a onclick="erweima('${var.GOODS_ID}');"><img style="cursor:pointer;" width="15" src="static/images/erwei.png"  title="商品二维码"/></a>
-												<a onclick="barcode('${var.GOODS_ID}','${var.BIANMA}');"><img style="cursor:pointer;" width="15" src="static/images/barcode.png"  title="商品条形码"/></a>
+												<%--<a onclick="erweima('${var.GOODS_ID}');"><img style="cursor:pointer;" width="15" src="static/images/erwei.png"  title="商品二维码"/></a>
+												<a onclick="barcode('${var.GOODS_ID}','${var.BIANMA}');"><img style="cursor:pointer;" width="15" src="static/images/barcode.png"  title="商品条形码"/></a>--%>
 											</td>
 											<td class='center'>${var.BIANMA}</td>
 											<td class='center'>${var.TNAME}</td>

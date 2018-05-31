@@ -34,7 +34,7 @@ public class ObjectExcelView extends AbstractExcelView{
 		response.setContentType("application/octet-stream");
 		response.setHeader("Content-Disposition", "attachment;filename="+filename+".xls");
 		sheet = workbook.createSheet("sheet1");
-		
+
 		List<String> titles = (List<String>) model.get("titles");
 		int len = titles.size();
 		HSSFCellStyle headerStyle = workbook.createCellStyle(); //标题样式
@@ -53,7 +53,7 @@ public class ObjectExcelView extends AbstractExcelView{
 			setText(cell,title);
 		}
 		sheet.getRow(0).setHeight(height);
-		
+
 		HSSFCellStyle contentStyle = workbook.createCellStyle(); //内容样式
 		contentStyle.setAlignment(HSSFCellStyle.ALIGN_CENTER);
 		List<PageData> varList = (List<PageData>) model.get("varList");
