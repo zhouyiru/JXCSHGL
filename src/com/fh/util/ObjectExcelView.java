@@ -66,7 +66,7 @@ public class ObjectExcelView extends AbstractExcelView{
 				cell.setCellStyle(contentStyle);
 				setText(cell,varstr);
 			}
-			
+
 		}
 		
 	}
